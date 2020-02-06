@@ -1,0 +1,282 @@
+.main-text
+{
+    position: absolute;
+    top: 57%;
+    width: 96.66666666666666%;
+    color: #FFF;
+}
+
+.main-text h1{
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 3.574em;
+}
+
+.extra-bold{
+    font-weight: 800;
+}
+
+.main-text p{
+    font-weight: 300;
+    padding-top: 5px;
+
+    font-size: 1.532em;
+}
+
+.welcome{
+    padding-bottom: 25px;
+}
+.welcome h1{
+    padding-top: 25px;
+    font-weight: 300;
+    color: #82191d;
+    text-transform: uppercase;
+}
+
+hr{
+    width: 5%;
+    border-top: 5px solid #82191d;
+    border-radius: 5px;
+}
+
+.bienvenidos-izquierda p{
+    font-weight: 300;
+    font-size: 1.2em;
+}
+
+.bienvenidos-derecha p{
+    color:#000;
+    font-weight: 600;
+    font-size: 0.875em;
+}
+
+.estudio{
+    padding-top: 75px;
+    padding-bottom: 25px;
+    background-image: url(../images/background-estudio.png);
+}
+
+.estudio hr{
+
+    border-top:5px solid #dbdbdb;
+}
+
+.estudio h1{
+    font-weight: 300;
+    text-transform: uppercase;
+    text-align: center;
+    color:#8e8e8e;
+}
+
+.titulo{
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 1em;
+    font-weight: 600;
+}
+
+.columnas p{
+    color:#c2c2c2;
+    font-size: 1em;
+}
+
+.columna1, .columna2, .columna3{
+    background-color: #82191d;
+    padding: 5px;
+}
+
+.columna4{
+    background-color: #fff !important;
+    margin-top: 15px;
+    padding: 5px;
+}
+
+.titulo2{
+    font-size: 1em;
+    font-weight: 300;
+    color:#82191d;
+}
+
+.columna4 p{
+    font-weight: 300;
+    color:#898989;
+    font-size: 16px;
+}
+
+.areas{
+    padding-top: 75px;
+    padding-bottom: 35px;
+    background-color: #efefef;
+}
+
+.areas h1{
+font-weight: 300;
+    text-transform: uppercase;
+    text-align: center;
+    color: #82191d;
+}
+
+.consultores{
+    padding-top: 75px;
+    padding-bottom: 60px;
+}
+.consultores h1, .contacto h1{
+    font-weight: 300;
+    text-transform: uppercase;
+    text-align: center;
+    color:#82191d;
+}
+
+.consultores h5{
+    text-align: center;
+    font-weight: 600;
+    font-size: 16px;
+    color:#82191d;
+}
+
+.consultores p{
+    color: #8e8e8e;
+    text-align: center;
+}
+
+.main-consultores{
+    padding-top: 45px;
+}
+
+.contacto{
+    background-color: #efefef;
+    padding-top: 75px;
+    padding-bottom: 55px;
+}
+
+.contacto-derecha h4{
+    text-transform: uppercase;
+    color: #82191d;
+    font-weight: 600;
+}
+
+.contacto-derecha p{
+    color: #787878;
+    font-weight: 300;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #82191d;
+    border-color: #82191d;
+}
+
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary:link {
+    color: #fff;
+    background-color: #5c1114 !important;
+    border-color: #5c1114 !important;
+}
+
+footer{
+    background-color: #82191d;
+}
+
+footer p{
+    color:#fff;
+    text-align: center;
+    text-transform: uppercase;
+    padding-top: 15px;
+    font-size: 10px;
+    padding-bottom: 15px;
+}
+
+.done{
+    background-color: #82191d;
+    color: #fff;
+    padding: 8px;
+    border-radius: 15px;
+}
+.vertical_line{
+    height:213px;
+    width:5px;
+    background:#82191d;
+    margin: auto !important;
+    border-radius: 15px;
+}
+
+.areas h2{
+    color: #898989;
+    text-transform: uppercase;
+    font-size: 1.5em;
+}
+
+.areas p{
+    color: #898989;
+}
+
+.padding-25{
+    padding-top: 25px;
+}
+
+.segundalinea2 {
+    height: 409px !important;
+    }
+
+.terceralinea{
+    height: 275px !important;
+}
+
+@media (max-width: 700px) {
+
+.main-text h1 {
+    font-size: 1em;
+}
+
+.main-text p {
+    font-size: 1em;
+}
+
+h1, .h1 {
+    font-size: 29px;
+}
+
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+    line-height: 1;
+}
+
+.lineadetiempo{
+    display: none;
+}
+
+.navbar-fixed-top, .navbar-fixed-bottom {
+    background-color: #ddd;
+}
+
+.navbar-default .navbar-nav > li > a {
+    color: #000;
+}
+
+
+.contacto-derecha{
+    padding-top: 50px;
+}
+
+.delay-1000, .delay-1500{
+    -webkit-animation-delay:0s !important;
+    -moz-animation-delay:0s !important;
+    -o-animation-delay:0s !important;
+    animation-delay:0s !important;
+}
+}
+
+.bienvenidos-izquierda, .bienvenidos-derecha{
+    text-align: justify;
+}
+
+.derecha-alineado{
+    text-align: right;
+}
+
+@media (max-width: 1200px) {
+
+.lineadetiempo{
+    display: none;
+}
+
+
+}
